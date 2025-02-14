@@ -39,9 +39,12 @@ The user can create some type of event listener that takes a zip code and passes
    In the above, port 3000 is used but this can be set by the user in the microservice.
      
 ### Receiving Data
-If the reponse is ok, the user will receive their data:
-  ```sh
-  const data = await response.json();
-  ```
-  This will output a JSON containing weather data which can be manipulated by the user.
-   
+If the reponse is ok, the user can store this data.
+1. Provide an object to hold the incoming response:
+   ```sh
+   const data = await response.json();
+   ```
+   This will output a JSON containing weather data which can be manipulated by the user.
+
+## UML
+![alt text](https://github.com/ericrpeters/SE361_WeatherService/blob/main/WeatherMicroserviceUML.drawio.png?raw=true)
