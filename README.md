@@ -47,4 +47,4 @@ If the reponse is ok, the user can store this data.
    This will output a JSON containing weather data which can be manipulated by the user.
 
 ## UML
-![alt text](https://github.com/ericrpeters/SE361_WeatherService/main/WeatherMicroserviceUML.drawio.png?raw=true)
+![alt text](https://github.com/ericrpeters/SE361_WeatherService/blob/main/WeatherMicroserviceUML.drawio.png?raw=true)
